@@ -13,7 +13,7 @@ Buttons
   *takechips
     name:采集薯条
     desc:为什么薯条长在地上?
-    on click:give 1 chips
+    on click:yield 1 chips
 
 Resources
   *chips
@@ -25,4 +25,4 @@ Buildings
     name:薯条农田
     desc:薯条种植没有季节影响,好耶!
     cost:10 chips
-    on tick:give 2 chips
+    on tick:yield 2 chips
