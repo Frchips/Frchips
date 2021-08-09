@@ -11,18 +11,18 @@ Settings
 
 Buttons
   *takechips
-    name:采集薯条
+    name:take chips
     desc:为什么薯条长在地上?
     on click:yield 1 chips
 
 Resources
   *chips
-    name:薯条
+    name:chips
     desc:可以作为粮食
     
 Buildings
   *chipsfarm
-    name:薯条农田
+    name:chipsfarm
     desc:薯条种植没有季节影响,好耶!
     cost:10 chips
     on tick:yield 2 chips
